@@ -1,0 +1,7 @@
+export function apiUtilNotification(): string {
+  return 'api-util-notification';
+}
+
+export function sendNotification(clientId: string) {
+  console.log('sending notification to client: ', clientId);
+}
