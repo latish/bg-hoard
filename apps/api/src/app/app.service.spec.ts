@@ -2,7 +2,7 @@ import { Test } from '@nestjs/testing';
 
 import { AppService } from './app.service';
 
-describe.skip('AppService', () => {
+describe('AppService', () => {
   let service: AppService;
 
   beforeAll(async () => {
@@ -13,7 +13,7 @@ describe.skip('AppService', () => {
     service = app.get<AppService>(AppService);
   });
 
-  describe.skip('getData', () => {
+  describe('getData', () => {
     it('should return "Welcome to api!"', () => {
       // expect(service.getData()).toEqual({ message: 'Welcome to api!' });
     });

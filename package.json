@@ -8,6 +8,7 @@
     "test": "nx test",
     "ng": "ng",
     "nx": "nx",
+    "test1": "nx run-many --target=test --all",
     "surge": "surge",
     "postinstall": "ngcc --properties es2015 browser module main"
   },

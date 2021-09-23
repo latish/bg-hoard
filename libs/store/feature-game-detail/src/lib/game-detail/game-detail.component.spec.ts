@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GameDetailComponent } from './game-detail.component';
 
-describe.skip('GameDetailComponent', () => {
+describe('GameDetailComponent', () => {
   let component: GameDetailComponent;
   let fixture: ComponentFixture<GameDetailComponent>;
 
